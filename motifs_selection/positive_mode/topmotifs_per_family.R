@@ -1,4 +1,4 @@
-Motif_MN_network_pos_nodetable <- read.csv("~/Desktop/BioInfo/internship_01/data/github_files/positive_mode/Motif_MN_network_pos_nodetable.csv")
+Motif_MN_network_pos_nodetable <- read.csv("Motif_MN_network_pos_nodetable.csv")
 
 dataset<- as.data.frame(Motif_MN_network_pos_nodetable)
 
