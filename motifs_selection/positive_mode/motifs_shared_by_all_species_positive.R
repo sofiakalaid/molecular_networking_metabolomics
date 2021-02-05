@@ -18,7 +18,7 @@ data_imp<-data_f[which(data_f$componentindex %in% fam_four$componentindex),]
 
 
 #import edge table
-Motif_MN_pos_edgetable <- read.csv("~/Desktop/BioInfo/internship_01/data/gnps output_n02/possitive/MN_positive_centroided/Motif_MN_pos_edgetable.csv")
+Motif_MN_pos_edgetable <- read.csv("Motif_MN_pos_edgetable.csv")
 data_edges<- as.data.frame(Motif_MN_pos_edgetable)
 dataset_edge<- data_edges %>% select(ComponentIndex,TopSharedMotifs)
 dataset_edge <- dataset_edge[-which(dataset_edge$TopSharedMotifs==''),]
