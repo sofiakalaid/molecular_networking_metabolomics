@@ -1,4 +1,4 @@
-Motif_MN_network_pos_nodetable <- read.csv("~/Desktop/BioInfo/internship_01/data/github_files/positive_mode/Motif_MN_network_pos_nodetable.csv")
+Motif_MN_network_pos_nodetable <- read.csv("Motif_MN_network_pos_nodetable.csv")
 library(dplyr)
 data_nodes<- as.data.frame(Motif_MN_network_pos_nodetable)
 data_nodes<- data_nodes %>% select(componentindex, G1,G2,G3,G4,G5,G6)
