@@ -1,4 +1,4 @@
-MS2LDA_MN_negative_node_table_integrated <- read.csv("~/Desktop/BioInfo/internship_01/data/gnps output/negative/MS2LDA_updated/ProteoSAFe-MS2LDA_MOTIFDB-313db2ab-download_cytoscape_data/MS2LDA_MN_negative_node_table_integrated.csv")
+MS2LDA_MN_negative_node_table_integrated <- read.csv("MS2LDA_MN_negative_node_table_integrated.csv")
 library(dplyr)
 data_nodes<- as.data.frame(MS2LDA_MN_negative_node_table_integrated)
 data_nodes<- data_nodes %>% select(componentindex, G1,G2,G3,G4,G5,G6)
