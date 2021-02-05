@@ -18,7 +18,7 @@ data_imp<-data_f[which(data_f$componentindex %in% fam_four$componentindex),]
 
 
 #import edge table
-MS2LDA_MN_negative_edge_table <- read.csv("~/Desktop/BioInfo/internship_01/data/gnps output/negative/MS2LDA_updated/ProteoSAFe-MS2LDA_MOTIFDB-313db2ab-download_cytoscape_data/MS2LDA_MN_negative_edge_table.csv")
+MS2LDA_MN_negative_edge_table <- read.csv("MS2LDA_MN_negative_edge_table.csv")
 data_edges<- as.data.frame(MS2LDA_MN_negative_edge_table)
 dataset_edge<- data_edges %>% select(ComponentIndex,TopSharedMotifs)
 dataset_edge <- dataset_edge[-which(dataset_edge$TopSharedMotifs==''),]
