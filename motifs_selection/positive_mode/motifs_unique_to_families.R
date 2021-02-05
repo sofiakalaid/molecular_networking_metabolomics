@@ -1,4 +1,4 @@
-Motif_MN_pos_edgetable <- read.csv("~/Desktop/BioInfo/internship_01/data/gnps output_n02/possitive/MN_positive_centroided/Motif_MN_pos_edgetable.csv")
+Motif_MN_pos_edgetable <- read.csv("Motif_MN_pos_edgetable.csv")
 library(dplyr)
 edges<-as.data.frame(Motif_MN_pos_edgetable)
 dataset_edge<- edges %>% select(ComponentIndex,TopSharedMotifs)
