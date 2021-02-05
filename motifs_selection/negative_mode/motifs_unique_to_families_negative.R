@@ -1,4 +1,4 @@
-MS2LDA_MN_negative_edge_table <- read.csv("~/Desktop/BioInfo/internship_01/data/gnps output/negative/MS2LDA_updated/ProteoSAFe-MS2LDA_MOTIFDB-313db2ab-download_cytoscape_data/MS2LDA_MN_negative_edge_table.csv")
+MS2LDA_MN_negative_edge_table <- read.csv("MS2LDA_MN_negative_edge_table.csv")
 library(dplyr)
 edges<-as.data.frame(MS2LDA_MN_negative_edge_table)
 dataset_edge<- edges %>% select(ComponentIndex,TopSharedMotifs)
