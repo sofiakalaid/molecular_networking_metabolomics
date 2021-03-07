@@ -1,1 +1,1 @@
-# molecular_networking_metabolomics
+# minor_thesis_untargeted_metabolomics_potato_crops
